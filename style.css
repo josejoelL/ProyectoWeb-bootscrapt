@@ -26,4 +26,49 @@ color: #03c4eb;;
 .topnav-right {
 float: right;
 }
+.button {
+   padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4e4caf;
+  border: none;
+  border-radius: 15px;
   
+}
+.button:hover {background-color: #424092}
+
+.button:active {
+  background-color: #424092;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}  
+
+.botbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.botbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.botbar a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.botbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
