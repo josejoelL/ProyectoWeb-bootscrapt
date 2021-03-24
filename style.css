@@ -48,7 +48,7 @@ float: right;
 
 .botbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #4CAF50;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -65,7 +65,7 @@ float: right;
 
 .botbar a:hover {
   background: #f1f1f1;
-  color: black;
+  color: #4CAF50;
 }
 
 .botbar a.active {
