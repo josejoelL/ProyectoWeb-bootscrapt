@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>index</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+      </head>
+<body>
+
+    <header id="topnav">
+        <!--contenedor-->
+        <div class="container topnav-content">
+              <!--titulo-->
+            <div>
+                <h2 class="mb-0">Cuentitos y Cuentotes</h2>
+                <p class="">Lectura para niños y niñas de todas las edades</p>
+            </div>
+            <!--componentes de navegacion-->
+            <div id="xl-nav" class="">
+                <nav id="xl-nav-link" class="">
+                    <a class="mr-5" href="">Acceso</a>
+                    <a class="mr-5" href="">Cuentos</a>
+                    <a class="mr-5" href="">Stories</a>
+                    <i id="xl-lupa" class="fas fa-search nav-link d-inline ml-4 m-0 p-0"></i>
+                </nav>
+            </div>
+            <div id="search-bar" class="d-none">
+              <input class="search-bar-content" type="text">
+            </div>
+            <!--menu responsivo, se muestra solo cuando la pantalla mide menos de 992px-->
+            <div id="burger" class="">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!--contenido del menu responsivo, solo se activa cuando el usuario
+    da click en el icono hamburguesa-->
+    <div id="responsive-menu" class="hide-responsive-menu">
+        <!--contenedor-->
+        <div class="container">
+            <nav class="responsive-menu-nav">
+                <div class="mb-2"><a class="" href="">Acceso</a></div>
+                <div class="mb-2"><a class="" href="">Cuentos</a></div>
+                <div class="mb-2"><a class="" href="">Stories</a></div>
+                <div class="mt-2"><i class="fas fa-search nav-link d-inline m-0 p-0"></i></div>              
+            </nav>
+        </div>
+    </div>
+
+    <main id="cuento-reading-list-exercises-part-main" class="container">
+        <h3 class="text-left ml-xl-5 ml-lg-5 ml-md-5 ml-sm-0 ml-0">La piedra de Masud</h3>
+        <div class="cuento-reading-list-exercises-part-main-content">
+            <h1 class="text-center">Ejercicio 1</h1>
+            <p class="text-center">Determina si las siguientes opciones son verdaderas o falsas</p>
+            <table class="cuento-reading-list-exercises-part-main-content-table w-100">
+                <tr>
+                    <td class="d-block w-100">
+                        <div class="text-center">
+                            <h4 class="text-left">Masaud fue un faraon</h4>
+                            <div class="ml-xl-5 mr-xl-5 ml-lg-4 mr-lg-4 ml-md-3 mr-md-3 ml-sm-0 mr-sm-0 ml-0 mr-0">
+                                <button class="ml-xl-3 ml-lg-2 ml-md-1 mb-sm-2 mb-2"><u>Falso</u></button>
+                                <button class="ml-xl-3 ml-lg-2 ml-md-1 mt-sm-2 mt-2"><u>Verdadero</u></button>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="d-block w-100">
+                        <div class="text-center">
+                            <h4 class="text-left">Masaud fue un faraon</h4>
+                            <div class="ml-xl-5 mr-xl-5 ml-lg-4 mr-lg-4 ml-md-3 mr-md-3 ml-sm-0 mr-sm-0 ml-0 mr-0">
+                                <button class="ml-xl-3 ml-lg-2 ml-md-1 mb-sm-2 mb-2"><u>Falso</u></button>
+                                <button class="ml-xl-3 ml-lg-2 ml-md-1 mt-sm-2 mt-2"><u>Verdadero</u></button>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="d-block w-100">
+                        <div class="text-center">
+                            <h4 class="text-left">Masaud fue un faraon</h4>
+                            <div class="ml-xl-5 mr-xl-5 ml-lg-4 mr-lg-4 ml-md-3 mr-md-3 ml-sm-0 mr-sm-0 ml-0 mr-0">
+                                <button class="ml-xl-3 ml-lg-2 ml-md-1 mb-sm-2 mb-2"><u>Falso</u></button>
+                                <button class="ml-xl-3 ml-lg-2 ml-md-1 mt-sm-2 mt-2"><u>Verdadero</u></button>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+            <div class="text-center row">
+                <div class="col-4">
+                    <i class="fas fa-chevron-left mr-2"></i>
+                    <i class="fas fa-arrow-left mr-2"></i>
+                </div>
+                <div class="text-center col-4">
+                    <i class="far fa-circle mr-0"></i>
+                    <i class="far fa-circle mr-0"></i>
+                    <i class="far fa-circle mr-0"></i>
+                </div>
+                <div class="col-4">
+                    <i class="fas fa-arrow-right ml-2 mr-2"></i>
+                    <i class="fas fa-chevron-right mr-2"></i>
+                    <i class="fas fa-expand-arrows-alt mr-0"></i>
+                </div>
+            </div>
+            <form class="cuento-reading-list-exercises-part-main-content-form text-center mt-4" action="#" method="POST">
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </main>
+
+    <footer id="footer">
+        <div class="container d-flex justify-content-between">
+          <p class="m-4 d-flex flex-wrap align-content-center">Copyright Cuentitos & Cuentotes 2020</p>
+          <h4 class="m-4 d-flex flex-wrap align-content-center">Contacto</h4>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    
+</body>
+</html>

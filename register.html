@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Cuentitos y Cuentotes</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+      </head>
+<body>
+
+    <header id="topnav">
+        <!--contenedor-->
+        <div class="container topnav-content">
+              <!--titulo-->
+            <div>
+                <h2 class="mb-0">Cuentitos y Cuentotes</h2>
+                <p class="">Lectura para niños y niñas de todas las edades</p>
+            </div>
+            <!--componentes de navegacion-->
+            <div id="xl-nav" class="">
+                <nav id="xl-nav-link" class="">
+                    <a class="mr-5" href="">Acceso</a>
+                    <a class="mr-5" href="">Cuentos</a>
+                    <a class="mr-5" href="">Stories</a>
+                    <i id="xl-lupa" class="fas fa-search nav-link d-inline ml-4 m-0 p-0"></i>
+                </nav>
+            </div>
+            <div id="search-bar" class="d-none">
+              <input class="search-bar-content" type="text">
+            </div>
+            <!--menu responsivo, se muestra solo cuando la pantalla mide menos de 992px-->
+            <div id="burger" class="">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!--contenido del menu responsivo, solo se activa cuando el usuario
+    da click en el icono hamburguesa-->
+    <div id="responsive-menu" class="hide-responsive-menu">
+        <!--contenedor-->
+        <div class="container">
+            <nav class="responsive-menu-nav">
+                <div class="mb-2"><a class="" href="">Acceso</a></div>
+                <div class="mb-2"><a class="" href="">Cuentos</a></div>
+                <div class="mb-2"><a class="" href="">Stories</a></div>
+                <div class="mt-2"><i class="fas fa-search nav-link d-inline m-0 p-0"></i></div>              
+            </nav>
+        </div>
+    </div>
+
+    <main id="register-main">
+        <!--Contenedor-->
+        <div class="container">
+            <!--divisor de pantalla-->
+            <div class="row">
+                <!--contenido de registro normal-->
+                <form id="registro-normal-form" class="col-xl-6 col-lg-6 col-md-6 col-sm-12" action="#" method="POST">
+                    <section>
+                        <article>
+                            <div class="registro-normal-form-space"><label for="">Nombre de usuario</label></div>
+                            <div class="registro-normal-form-space"><input type="text"></div>
+                        </article>
+                    </section>
+                    <section>
+                        <article>
+                            <div id="void-space"></div>
+                            <div class="profesor-alumno-normal">
+                                <p id="profesor-normal">Profesor</p>
+                                <p id="alumno-normal">Alumno</p>
+                            </div>
+                        </article>
+                    </section>
+                    <section id="clave-profesor-normal" class="d-none">
+                        <article>
+                            <div><label for="">Clave de profesor</label></div>
+                            <div><input type="text"></div>
+                        </article>
+                    </section>
+                    <section>
+                        <article>
+                            <div><label for="">Profesor de español</label></div>
+                            <div><input type="text"></div>
+                        </article>
+                    </section>
+                    <section>
+                        <article>
+                            <div><label for="">Profesor de inglés</label></div>
+                            <div><input type="text"></div>
+                        </article>
+                    </section>
+                    <section>
+                        <article>
+                            <div><label for="">Email</label></div>
+                            <div><input type="email"></div>
+                        </article>
+                    </section>
+                    <section>
+                        <article>
+                            <div><label for="">Nombre</label></div>
+                            <div><input type="text"></div>
+                        </article>
+                    </section>
+                    <section>
+                        <article>
+                        <div><label for="">Apellido</label></div>
+                        <div><input type="text"></div>
+                        </article>
+                    </section>
+                    <section>
+                        <article>
+                            <div><label for="">Contraseña</label></div>
+                            <div><input type="password"></div>
+                        </article>
+                    </section>
+                    <section>
+                        <article>
+                        <div><label for="">Confirmar contraseña</label></div>
+                        <div><input type="password"></div>
+                        </article>
+                    </section>
+                    <section>
+                        <article>
+                            <div id="void-space"></div>
+                            <div id="recuerdame-accesar">
+                                <div><input type="submit" value="Accesar"></div>
+                                <div class="space-recuerdame">
+                                    <section>
+                                        <p>Recuerdame</p>
+                                        <div><input type="checkbox"></div>
+                                    </section>
+                                </div>
+                            </div>
+                        </article>
+                    </section>
+                </form>
+                <!--contenido de registro rápido-->
+                <form id="registro-rapido-form" class="col-xl-6 col-lg-6 col-md-6 col-sm-12" action="#" method="POST">
+                    <h5>Registro rápido</h5>
+                    <div class="registro-rapido-content">
+                        <section class="profesor-alumno-rapido">
+                            <article>
+                                <p id="profesor-rapido">Profesor</p>
+                                <p id="alumno-rapido">Alumno</p>
+                            </article>
+                        </section>
+                        <section id="clave-profesor-rapido" class="d-none">
+                            <article>
+                                <div><label for="">Clave de profesor</label></div>
+                                <div><input type="text"></div>
+                            </article>
+                        </section>
+                        <section>
+                            <article>
+                                <div><label for="">Profesor de español</label></div>
+                                <div><input type="text"></div>
+                            </article>
+                        </section>
+                        <section>
+                            <article>
+                                <div><label for="">Profesor de inglés</label></div>
+                                <div><input type="text"></div>
+                            </article>
+                        </section>
+                        <section>
+                            <article>
+                                <div><button>Google</button></div>
+                            </article>
+                        </section>
+                        <section>
+                            <article>
+                                <div><button>Facebook</button></div>
+                            </article>
+                        </section>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!--pie de pagina(footer)-->
+    <footer id="footer">
+        <div class="container d-flex justify-content-between">
+          <p class="m-4 d-flex flex-wrap align-content-center">Copyright Cuentitos & Cuentotes 2020</p>
+          <h4 class="m-4 d-flex flex-wrap align-content-center">Contacto</h4>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
